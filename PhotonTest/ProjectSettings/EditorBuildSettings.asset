@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PotonPunScene/PotonTest.unity
+    guid: 2807bcdcb65d7774fa3d3dea013fe63b
   m_configObjects: {}
