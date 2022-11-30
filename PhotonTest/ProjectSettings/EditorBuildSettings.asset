@@ -8,4 +8,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PotonPunScene/PotonTest.unity
     guid: 2807bcdcb65d7774fa3d3dea013fe63b
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2bc52dc706ec2d2429f0212dcd4622cc, type: 2}
