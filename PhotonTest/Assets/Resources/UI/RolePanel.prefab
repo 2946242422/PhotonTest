@@ -1837,6 +1837,7 @@ GameObject:
   - component: {fileID: 5583260216246271589}
   - component: {fileID: 5583260216246271591}
   - component: {fileID: 5583260216246271588}
+  - component: {fileID: 5705068532603735891}
   m_Layer: 5
   m_Name: RolePanel
   m_TagString: Untagged
@@ -1903,6 +1904,27 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5705068532603735891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583260216246271586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdd179c434a5964aad807c05c56d40e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnClose: {fileID: 7568852912905617152}
+  btnLevUp: {fileID: 73311571182045304}
+  txtLev: {fileID: 5583260216536511041}
+  txtHp: {fileID: 5583260215839701296}
+  txtAtk: {fileID: 5583260215822346989}
+  txtDef: {fileID: 5583260215673016025}
+  txtCrit: {fileID: 5583260216887395164}
+  txtMiss: {fileID: 5583260215448354950}
+  txtLuck: {fileID: 5583260216022871860}
 --- !u!1 &5583260216322491389
 GameObject:
   m_ObjectHideFlags: 0

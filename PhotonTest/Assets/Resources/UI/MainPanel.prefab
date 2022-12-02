@@ -269,7 +269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -174.25, y: -3.580017}
+  m_AnchoredPosition: {x: -174.25, y: -3.579895}
   m_SizeDelta: {x: 169.07007, y: 169.07007}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &1161290426870451273
@@ -550,6 +550,7 @@ GameObject:
   - component: {fileID: 1161290427554659403}
   - component: {fileID: 1161290427554659413}
   - component: {fileID: 1161290427554659412}
+  - component: {fileID: -1804832464574937548}
   m_Layer: 5
   m_Name: MainPanel
   m_TagString: Untagged
@@ -617,6 +618,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-1804832464574937548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161290427554659402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baad0194ea421d242a65c819ac197771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnRole: {fileID: 1161290427563017655}
+  btnSill: {fileID: 1161290426870451279}
+  txtName: {fileID: 1161290428230174371}
+  txtLev: {fileID: 1161290428102988170}
+  txtMoney: {fileID: 1161290426745931744}
+  txtGem: {fileID: 1161290426649783670}
+  txtPower: {fileID: 1161290426721801018}
 --- !u!1 &1161290427563017653
 GameObject:
   m_ObjectHideFlags: 0
